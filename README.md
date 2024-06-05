@@ -8,8 +8,8 @@ In this practical application, the goal is to compare the performance of
 K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines classifiers. <br>
 Utilizing a dataset related to marketing bank products over the telephone.<br>
 
-Notebook: https://github.com/johennie/bank_marketing/notebooks/jh_prompt_III.ipynb
-<br>Data: https://github.com/johennie/bank_marketing/data/bank-additional-full.csv
+Notebook: [https://github.com/johennie/bank_marketing/notebooks/jh_prompt_III.ipynb](https://github.com/johennie/bank_marketing/blob/main/notebooks/jh_prompt_III.ipynb)
+<br>Data: [https://github.com/johennie/bank_marketing/data/bank-additional-full.csv](https://github.com/johennie/bank_marketing/blob/main/data/bank-additional-full.csv)
 
 ## 1. Business Understanding
 The business objective is to identify if a client chooses (target == yes / 1) a long-term deposit after a marketing campaing. In order to do so, we want to identify a predictive model that classifies the target data.
