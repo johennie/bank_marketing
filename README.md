@@ -8,8 +8,8 @@ In this practical application, the goal is to compare the performance of
 K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines classifiers. <br>
 Utilizing a dataset related to marketing bank products over the telephone.<br>
 
-Notebook: [https://github.com/johennie/bank_marketing/notebooks/jh_prompt_III.ipynb](https://github.com/johennie/bank_marketing/blob/main/notebooks/jh_prompt_III.ipynb)
-<br>Data: [https://github.com/johennie/bank_marketing/data/bank-additional-full.csv](https://github.com/johennie/bank_marketing/blob/main/data/bank-additional-full.csv)
+Notebook: https://github.com/johennie/bank_marketing/notebooks/jh_prompt_III.ipynb
+<br>Data: https://github.com/johennie/bank_marketing/data/bank-additional-full.csv
 
 ## 1. Business Understanding
 The business objective is to identify if a client chooses (target == yes / 1) a long-term deposit after a marketing campaing. In order to do so, we want to identify a predictive model that classifies the target data.
@@ -136,4 +136,10 @@ with good balance of performance metrics and training time.<br>
 RandomForestClassifier and Decision Tree models show signs of overfitting in both original and undersampled data. We expected that 
 undersampling the majority target class would improve metrics, but instead it lowered the test accuracy and F1 score. 
 <br>This indicates that undersampling is not effective in this dataset. Using GridSearch increased metrics but the gains may not justify the increase on
-train time. This is very obvious with SVM.
+train time. This is obvious with SVM model.
+
+## 6. Next Steps
+Undersampling oversimplifies the problem assuming that balancing the classes by reducing the majority class is sufficient  
+but in this dataset did not. Therefore, experimenting with more advanced resampling techniques to address class imbalance 
+more effectively may yield better results. Also, conducting more extensive hyperparameter tuning to
+find better parameter combinations with less computational cost may provide a better performing model. 
